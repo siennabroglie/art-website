@@ -1,0 +1,30 @@
+body {
+    margin: 1rem 2rem;
+    font-family: Consolas, Inconsolata, monospace;
+    background-color: ghostwhite;
+}
+h1 {
+    margin: 2rem 0 1rem;
+}
+h2 {
+    margin: 1rem 0 1rem;
+}
+p {
+    margin: 1rem 0 1rem;
+}
+div {
+    margin: 1rem 0 1rem;
+}
+button {
+    background-color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    display:inline-block;
+    cursor: pointer;
+}
+figure {
+    margin: 1rem 0 1rem;
+}
+img.scaled {
+    width: 100%;
+}
