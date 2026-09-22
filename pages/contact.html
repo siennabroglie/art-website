@@ -6,17 +6,46 @@
     <title>Contact</title>
 </head>
 <body>
-    <h1>Contact</h1>
+    <h1>Cont<!-- ignore -->act</h1>
     <div>
         <h3>siennabroglie<!-- ignore -->@<!-- ignore -->gmail.com</h3>
         <h3>443-<!-- ignore -->995-<!-- ignore -->1633</h3>
-        <form>
+    <div class="standard">
+        <form id="email-form">
             <label>Email List</label>
             <p>Every few months, new paintings and essays.</p>
             <input type="text" placeholder="email address" name="email" id="email">
-            <button type="submit" value="Subscribe"></button>
+            <input type="submit" value="Subscribe"></input>
         </form>
     </div>
-    
+    <div id="response-message"></div>
+    <script>
+        const form = document.getElementById('email-form');
+        const responseMessage = document.getElementById('response-message');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxdk7gcJB9ZP72Q2zbtLE38D4VvC12ZfFypO5H1pYulHud2YDajFIKQPt50U_HmV4r2/exec';
+            const formData = new FormData(form);
+
+            responseMessage.textContent = 'Submitting...';
+
+            fetch(scriptURL, { method: 'POST', body: formData })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.result === 'success') {
+                        responseMessage.textContent = 'Success. Your email was added to my list.';
+                        form.reset();
+                    } else {
+                        throw new Error('Form submission failed');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error!', error.message);
+                    responseMessage.textContent = 'An error occurred. Please try again.';
+                });
+        })
+    </script>
 </body>
 </html>

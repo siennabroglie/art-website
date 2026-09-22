@@ -1,7 +1,7 @@
 body {
     margin: 1rem 2rem;
     font-family: Consolas, Inconsolata, monospace;
-    background-color: ghostwhite;
+    background-color: white;
 }
 h1 {
     margin: 2rem 0 1rem;
@@ -13,7 +13,7 @@ p {
     margin: 1rem 0 1rem;
 }
 button {
-    background-color: white;
+    background-color: ghostwhite;
     color: black;
     border: none;
     font-family: Consolas, Inconsolata, monospace;
@@ -61,7 +61,7 @@ img.clickable-image.enlarged {
     max-width: 100%;
 }
 form  {
-    background-color: white;
+    background-color: ghostwhite;
     width: fit-content;
     margin: 1rem 0 1rem;
     padding: 1rem 1rem;
@@ -71,14 +71,14 @@ form  {
         font-weight: 700;
     }
     input[type="text"] {
-        background-color: ghostwhite;
+        background-color: white;
         margin: 1rem 0 1rem;
         padding: .05rem 1rem;
         font-family: Consolas, Inconsolata, monospace;
         font-size: 1rem;
     }
     input[type="submit"] {
-        background-color: ghostwhite;
+        background-color: white;
         border: none;
         margin: 1rem 0 1rem;
         padding: .05rem 1rem;
