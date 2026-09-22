@@ -29,8 +29,7 @@ figure {
     margin: 1rem 0 1rem;
 }
 img.scaled {
-    width: 100%;
-    max-width: 1080;
+    max-height: 1050px;
 }
 form  {
     background-color: white;
