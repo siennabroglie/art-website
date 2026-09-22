@@ -47,6 +47,7 @@ figcaption {
 img.scaled {
     width: 100%;
     max-width: 500px;
+    margin: auto;
 }
 img.clickable-image {
     cursor: pointer;
