@@ -1,0 +1,97 @@
+body {
+    margin: 2rem 2rem;
+    font-family: Consolas, Inconsolata, monospace;
+    background-color: ghostwhite;
+}
+h1 {
+    margin: 2rem 0 1rem;
+}
+h2 {
+    margin: 1rem 0 1rem;
+}
+p {
+    margin: 1rem 0 1rem;
+}
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: Consolas, Inconsolata, monospace;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display:inline-block;
+    cursor: pointer;
+}
+div.standard {
+    margin: 2rem 0 1rem;
+}
+div.menu-buttons {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+div.image-container {
+    display: block;
+}
+figure {
+    display: block;
+    width: 100%;
+    margin: 150px auto;
+}
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto
+}
+figcaption {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem auto 0;
+    text-align: left;
+}
+img.scaled {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+img.clickable-image {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+img.clickable-image.enlarged {
+    max-width: 100%;
+}
+form  {
+    background-color: white;
+    width: fit-content;
+    margin: 1rem 0 1rem;
+    padding: 1rem 1rem;
+    font-family: Consolas, Inconsolata, monospace;
+    label {
+        margin: 1rem 0 1rem;
+        font-weight: 700;
+    }
+    input[type="text"] {
+        background-color: ghostwhite;
+        margin: 1rem 0 1rem;
+        padding: .05rem 1rem;
+        font-family: Consolas, Inconsolata, monospace;
+        font-size: 1rem;
+    }
+    input[type="submit"] {
+        background-color: ghostwhite;
+        border: none;
+        margin: 1rem 0 1rem;
+        padding: .06rem 1rem;
+        text-align: center;
+        font-family: Consolas, Inconsolata, monospace;
+        font-size: 1rem;
+        color: black;
+        cursor: pointer;
+    }
+}
