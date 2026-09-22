@@ -25,13 +25,16 @@ button {
     display:inline-block;
     cursor: pointer;
 }
-figure {
+div.image-container {
     display: flex;
-    margin: 200px auto;
     align-items: center;
 }
+figure {
+    display: block;
+    margin: 200px auto;
+}
 figcaption {
-    margin: 1rem 0 1rem;
+    margin: 1rem auto 1rem;
 }
 img.scaled {
     width: 100%;
