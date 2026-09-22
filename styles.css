@@ -40,6 +40,12 @@ figure {
     width: 100%;
     margin: 150px auto;
 }
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
 figcaption {
     display: block;
     width: 100%;
