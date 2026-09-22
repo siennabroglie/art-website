@@ -26,21 +26,28 @@ button {
     display:inline-block;
     cursor: pointer;
 }
+div.menu-buttons {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 div.image-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 figure {
     display: block;
-    margin: 200px auto;
+    margin: 150px auto;
 }
 figcaption {
     margin: 1rem auto 1rem;
+    max-width: 100%;
 }
 img.scaled {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
 }
 img.clickable-image {
     cursor: pointer;
