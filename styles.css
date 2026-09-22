@@ -30,18 +30,16 @@ div.menu-buttons {
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 div.image-container {
     display: flex;
+    height: 100vh;
+    column-gap: 150px;
     flex-direction: column;
     align-items: center;
 }
-figure {
-    display: block;
-    margin: 150px auto;
-}
-figcaption {
+figure figcaption {
     margin: 1rem auto 1rem;
     max-width: 100%;
 }
