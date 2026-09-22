@@ -12,9 +12,6 @@ h2 {
 p {
     margin: 1rem 0 1rem;
 }
-div {
-    margin: 2rem 0 1rem;
-}
 button {
     background-color: white;
     color: black;
@@ -25,6 +22,9 @@ button {
     text-align: center;
     display:inline-block;
     cursor: pointer;
+}
+div.standard {
+    margin: 2rem 0 1rem;
 }
 div.menu-buttons {
     display: flex;
