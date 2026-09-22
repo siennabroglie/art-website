@@ -26,8 +26,9 @@ button {
     cursor: pointer;
 }
 figure {
-    display: block;
+    display: flex;
     margin: 200px auto;
+    align-items: center;
 }
 figcaption {
     margin: 1rem 0 1rem;
