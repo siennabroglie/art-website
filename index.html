@@ -28,6 +28,15 @@
             <figcaption>(4x4)(6x5) Cadmium Red, Cadmium Yellow. Oil on Paper. 24 x 20 cm.</figcaption>
         </figure>
     </div>
+    <script>
+        const images = document.querySelectorAll('.clickable-image');
+
+        images.forEach(image => {
+            image.addEventListener('click', function() {
+                this.classList.toggle('enlarged');
+            });
+        });
+    </script>
     <div>
         <button>Archive</button>
         <a href="./pages/archive.html"></a>

@@ -27,12 +27,12 @@ button {
 }
 figure {
     display: block;
-    margin: 1rem auto 1rem;
+    margin: 200px auto;
 }
 img.scaled {
     width: 100%;
     max-width: 600px;
-    margin: 200px auto;
+    margin: 1rem auto;
 }
 img.clickable-image {
     cursor: pointer;
@@ -54,7 +54,7 @@ form  {
     input[type="text"] {
         background-color: ghostwhite;
         margin: 1rem 0 1rem;
-        padding: 1rem 1rem;
+        padding: .05rem 1rem;
         font-family: Consolas, Inconsolata, monospace;
         font-size: 1rem;
     }
@@ -62,7 +62,7 @@ form  {
         background-color: ghostwhite;
         border: none;
         margin: 1rem 0 1rem;
-        padding: 1rem 1rem;
+        padding: .05rem 1rem;
         text-align: center;
         font-family: Consolas, Inconsolata, monospace;
         font-size: 1rem;
