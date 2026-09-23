@@ -10,6 +10,7 @@ body {
 }
 h1 {
     margin: 3rem 0 2rem;
+    font-size: 3rem;
 }
 h1.invisible {
     color: white;
@@ -92,26 +93,26 @@ form  {
     margin: 1rem 0 1rem;
     padding: 1rem 1rem;
     font-family: Consolas, Inconsolata, monospace;
-    label {
-        margin: 1rem 0 1rem;
-        font-weight: 700;
-    }
-    input[type="text"] {
-        background-color: ghostwhite;
-        margin: 1rem 0 1rem;
-        padding: .05rem 1rem;
-        font-family: Consolas, Inconsolata, monospace;
-        font-size: 1rem;
-    }
-    input[type="submit"] {
-        background-color: ghostwhite;
-        border: none;
-        margin: 1rem 0 1rem;
-        padding: .07rem 1rem;
-        text-align: center;
-        font-family: Consolas, Inconsolata, monospace;
-        font-size: 1rem;
-        color: black;
-        cursor: pointer;
-    }
+}
+form label {
+    margin: 1rem 0 1rem;
+    font-weight: 700;
+}
+form input[type="text"] {
+    background-color: ghostwhite;
+    margin: 1rem 0 1rem;
+    padding: .05rem 1rem;
+    font-family: Consolas, Inconsolata, monospace;
+    font-size: 1rem;
+}
+form input[type="submit"] {
+    background-color: ghostwhite;
+    border: none;
+    margin: 1rem 0 1rem;
+    padding: .07rem 1rem;
+    text-align: center;
+    font-family: Consolas, Inconsolata, monospace;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
 }
