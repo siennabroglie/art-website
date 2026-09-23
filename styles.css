@@ -55,6 +55,7 @@ div.menu-buttons {
 }
 div.image-container {
     display: block;
+    margin-bottom: 2rem;
 }
 figure {
     display: block;
