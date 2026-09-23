@@ -89,7 +89,7 @@ img.clickable-image.enlarged {
     max-width: 100%;
 }
 img.shadow {
-    filter: drop-shadow(0 0 10px black)
+    filter: drop-shadow(0 0 7px grey)
 }
 form  {
     background-color: white;

@@ -51,6 +51,22 @@
                     } else {
                         throw new Error('Form submission failed');
                     }
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    console.log('Response URL:', response.url);
+                    return response.text();
+                })
+                .then(data => {
+                    console.log('Raw response:', data);
+
+                    responseMessage.textContent =
+                        'Response received: ' + data;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    responseMessage.textContent =
+                        'An error occurred. Please try again.';
+                });
                 })
                 .catch(error => {
                     console.error('Error!', error.message);
