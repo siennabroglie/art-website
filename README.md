@@ -2,5 +2,8 @@
 Sienna's portfolio site
 
 to-do:
-    add color matrix swatches to sketchbook page
+    link artist statement
+    improve alt text
+    improve seo
+
     
