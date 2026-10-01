@@ -81,6 +81,12 @@ img.scaled {
     max-width: 500px;
     margin: 0 auto;
 }
+img.contact {
+    display: block;
+    width: 50%;
+    max-width: 200px;
+    margin: 0 auto;
+}
 img.clickable-image {
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
