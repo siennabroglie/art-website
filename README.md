@@ -5,5 +5,5 @@ to-do:
     link artist statement
     improve alt text
     improve seo
-
+ 
     
